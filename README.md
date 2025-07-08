@@ -19,8 +19,8 @@
 </div>
 
 [![Netlify](https://img.shields.io/badge/Live-mlroadmap.netlify.app-00C853?style=for-the-badge&logo=netlify&logoColor=white)](https://mlroadmap.netlify.app)
-[![Performance](https://img.shields.io/badge/Lighthouse-95+-4FC08D?style=for-the-badge&logo=lighthouse&logoColor=white)]
-[![Bundle Size](https://img.shields.io/badge/Bundle-<500KB-FF6B6B?style=for-the-badge&logo=webpack&logoColor=white)]
+[![Performance](https://img.shields.io/badge/Lighthouse-95+-4FC08D?style=for-the-badge&logo=lighthouse&logoColor=white)](#)
+[![Bundle Size](https://img.shields.io/badge/Bundle-<500KB-FF6B6B?style=for-the-badge&logo=webpack&logoColor=white)](#)
 
 **[🔗 Live Demo](https://mlroadmap.netlify.app/) | [📱 Download App](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**
 
