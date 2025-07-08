@@ -245,7 +245,7 @@ export default function Dashboard() {
   }
 
   return (
-    <div id="dashboard" className="space-y-6">
+    <div className="space-y-6">
       {/* Cloud Sync - Moved to top for production */}
       <CloudSync roadmap={roadmap} onDataUpdate={handleCloudSyncDataUpdate} />
 
@@ -294,7 +294,7 @@ export default function Dashboard() {
       <MotivationalQuote />
 
       {/* Stats Dashboard */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div id="dashboard" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
         <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6 rounded-xl shadow-lg hover-lift">
           <div className="flex items-center justify-between">
             <div>
