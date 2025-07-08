@@ -1,4 +1,6 @@
-# 🚀 ML Roadmap Tracker
+# 🚀 ML Roadmap**[🔗 Live> **🌟 Live Application**: Experience the full functionality at [mlroadmap.netlify.app](https://mlroadmap.netlify.app/)  
+> **📱 Mobile Apps**: Download Android APK from [GitHub Releases](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)  
+> **👨‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineermo](https://mlroadmap.netlify.app/) | [📱 Download Apps](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**Tracker
 
 ### _A Production-Ready Machine Learning Progress Tracking Application_
 
@@ -24,7 +26,8 @@
 **ML Roadmap Tracker** is a sophisticated web application designed to guide aspiring data scientists through a comprehensive 52-week Machine Learning curriculum. Built with modern web technologies, it demonstrates proficiency in **React ecosystem**, **TypeScript development**, **RESTful API integration**, and **cloud-based data synchronization**.
 
 > **🌟 Live Application**: Experience the full functionality at [mlroadmap.netlify.app](https://mlroadmap.netlify.app/)  
-> **👨‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineer
+> **� Mobile Apps**: Download Android APK from [GitHub Releases](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)  
+> **�👨‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineer
 
 This project serves as both a learning tool for ML enthusiasts and a showcase of modern web development practices, featuring production-grade architecture and enterprise-level code quality.
 
@@ -369,7 +372,7 @@ npm run preview        # Local preview of production build
 
 ---
 
-## �‍💻 About the Developer
+## 👨‍💻 About the Developer
 
 **MD Shahidur Rahman** is a passionate Full-Stack Developer and Machine Learning Engineer with expertise in modern web technologies and data science. This project represents a fusion of technical excellence and educational purpose, demonstrating capabilities in:
 
@@ -382,7 +385,7 @@ _Currently building innovative solutions at the intersection of web development 
 
 ---
 
-## �📞 Connect & Collaborate
+## 📞 Connect & Collaborate
 
 <div align="center">
 
