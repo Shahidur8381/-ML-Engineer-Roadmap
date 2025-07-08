@@ -1,0 +1,1342 @@
+[
+  {
+    "week": 1,
+    "startDate": "2025-07-01",
+    "concept": "Python Refresher & Conda",
+    "practice": "Write calculator, data analyzer",
+    "hoursExpected": 10,
+    "hoursCompleted": 10,
+    "completed": true,
+    "notes": "Completed",
+    "resources": [
+      {
+        "title": "Python Official Tutorial",
+        "url": "https://docs.python.org/3/tutorial/",
+        "type": "documentation"
+      },
+      {
+        "title": "Conda User Guide",
+        "url": "https://docs.conda.io/projects/conda/en/latest/user-guide/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "foundations",
+    "tags": ["python", "environment", "setup"]
+  },
+  {
+    "week": 2,
+    "startDate": "2025-07-08",
+    "concept": "NumPy arrays & broadcasting",
+    "practice": "Build matrices, simulate experiments",
+    "hoursExpected": 10,
+    "hoursCompleted": 10,
+    "completed": true,
+    "notes": "Completed",
+    "resources": [
+      {
+        "title": "NumPy Quickstart Tutorial",
+        "url": "https://numpy.org/doc/stable/user/quickstart.html",
+        "type": "documentation"
+      },
+      {
+        "title": "NumPy Broadcasting",
+        "url": "https://numpy.org/doc/stable/user/basics.broadcasting.html",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "data-manipulation",
+    "tags": ["numpy", "arrays", "mathematics"]
+  },
+  {
+    "week": 3,
+    "startDate": "2025-07-15",
+    "concept": "Pandas DataFrames & groupby",
+    "practice": "Analyze IPL or student dataset",
+    "hoursExpected": 10,
+    "hoursCompleted": 5,
+    "completed": false,
+    "notes": "Current Section",
+    "resources": [
+      {
+        "title": "Pandas Getting Started",
+        "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+        "type": "documentation"
+      },
+      {
+        "title": "10 Minutes to Pandas",
+        "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "high",
+    "category": "data-manipulation",
+    "tags": ["pandas", "dataframes", "analysis", "current"]
+  },
+  {
+    "week": 4,
+    "startDate": "2025-07-22",
+    "concept": "Matplotlib + Seaborn basics",
+    "practice": "Create multi-chart dashboard",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Matplotlib Tutorials",
+        "url": "https://matplotlib.org/stable/tutorials/index.html",
+        "type": "documentation"
+      },
+      {
+        "title": "Seaborn Tutorial",
+        "url": "https://seaborn.pydata.org/tutorial.html",
+        "type": "documentation"
+      }
+    ],
+    "priority": "medium",
+    "category": "visualization",
+    "tags": ["matplotlib", "seaborn", "plotting"]
+  },
+  {
+    "week": 5,
+    "startDate": "2025-07-29",
+    "concept": "🚀 PROJECT: Exploratory Data Analysis Dashboard",
+    "practice": "Perform a full EDA on a real-world dataset, from cleaning to visualization. Present findings in an interactive dashboard.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Medium-level project combining weeks 1-4 learnings. Focus on data storytelling.",
+    "resources": [
+      {
+        "title": "Dataset: Netflix Movies and TV Shows",
+        "url": "https://www.kaggle.com/datasets/shivamb/netflix-shows",
+        "type": "dataset"
+      },
+      {
+        "title": "EDA Tutorial with Pandas",
+        "url": "https://www.kaggle.com/code/kashnitsky/topic-1-exploratory-data-analysis-with-pandas",
+        "type": "tutorial"
+      },
+      {
+        "title": "Plotly for Interactive Dashboards",
+        "url": "https://plotly.com/python/getting-started/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "eda", "dashboard", "data-analysis", "visualization"]
+  },
+  {
+    "week": 6,
+    "startDate": "2025-08-05",
+    "concept": "SQL Basics",
+    "practice": "Practice 20+ queries on platforms like LeetCode or HackerRank.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "SQLBolt",
+        "url": "https://sqlbolt.com/",
+        "type": "tutorial"
+      },
+      {
+        "title": "Select Star SQL",
+        "url": "https://selectstarsql.com/",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "high",
+    "category": "databases",
+    "tags": ["sql", "databases", "queries"]
+  },
+  {
+    "week": 7,
+    "startDate": "2025-08-12",
+    "concept": "Data Collection & APIs",
+    "practice": "Scrape a website or collect data using a public API (e.g., Twitter, Reddit).",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Requests Documentation",
+        "url": "https://requests.readthedocs.io/en/latest/",
+        "type": "documentation"
+      },
+      {
+        "title": "Beautiful Soup Guide",
+        "url": "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "medium",
+    "category": "data-collection",
+    "tags": ["apis", "web-scraping", "requests"]
+  },
+  {
+    "week": 8,
+    "startDate": "2025-08-19",
+    "concept": "Probability & Statistics",
+    "practice": "Solve problems and understand core concepts like p-values and confidence intervals.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Khan Academy Statistics",
+        "url": "https://www.khanacademy.org/math/statistics-probability",
+        "type": "course"
+      },
+      {
+        "title": "Think Stats Book",
+        "url": "https://greenteapress.com/thinkstats2/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "statistics",
+    "tags": ["statistics", "probability", "mathematics"]
+  },
+  {
+    "week": 9,
+    "startDate": "2025-08-26",
+    "concept": "Distributions & Central Limit Theorem",
+    "practice": "Simulate CLT, plot and understand different data distributions.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Seeing Theory: Visualizing Probability & Stats",
+        "url": "https://seeing-theory.brown.edu/basic-probability/index.html",
+        "type": "tutorial"
+      },
+      {
+        "title": "SciPy Stats Documentation",
+        "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "statistics",
+    "tags": ["distributions", "clt", "statistics"]
+  },
+  {
+    "week": 10,
+    "startDate": "2025-09-02",
+    "concept": "🚀 PROJECT: Web Data Analysis Pipeline",
+    "practice": "Build a data pipeline that scrapes a website, stores the data in an SQLite database, and generates a statistical report.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Medium-level project combining weeks 6-9 learnings.",
+    "resources": [
+      {
+        "title": "Scraping Target: Books to Scrape",
+        "url": "http://books.toscrape.com/",
+        "type": "dataset"
+      },
+      {
+        "title": "Tutorial: Web Scraping to a SQLite Database",
+        "url": "https://realpython.com/web-scraping-sql-python-projects/",
+        "type": "tutorial"
+      },
+      {
+        "title": "Pandas to_sql and read_sql",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "etl", "pipeline", "web-scraping", "databases"]
+  },
+  {
+    "week": 11,
+    "startDate": "2025-09-09",
+    "concept": "Intro to ML & Scikit-learn",
+    "practice": "Train/test split, linear regression, and understand model evaluation metrics.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Scikit-learn User Guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "type": "documentation"
+      },
+      {
+        "title": "Machine Learning Specialization",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "type": "course"
+      }
+    ],
+    "priority": "high",
+    "category": "machine-learning",
+    "tags": ["ml", "scikit-learn", "regression"]
+  },
+  {
+    "week": 12,
+    "startDate": "2025-09-16",
+    "concept": "ML Algorithms (KNN, DT, Logistic Regression)",
+    "practice": "Build and evaluate multiple classification models on the Titanic dataset.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Titanic Dataset Tutorial",
+        "url": "https://www.kaggle.com/code/alexisbcook/titanic-tutorial",
+        "type": "tutorial"
+      },
+      {
+        "title": "Model Comparison Guide",
+        "url": "https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "machine-learning",
+    "tags": ["knn", "decision-trees", "classification"]
+  },
+  {
+    "week": 13,
+    "startDate": "2025-09-23",
+    "concept": "Neural Networks (TF or PyTorch)",
+    "practice": "Build and train a simple neural network for image classification on MNIST.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "PyTorch: Intro to Deep Learning",
+        "url": "https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html",
+        "type": "documentation"
+      },
+      {
+        "title": "TensorFlow 2.0 Complete Course",
+        "url": "http://googleusercontent.com/youtube.com/2",
+        "type": "video"
+      }
+    ],
+    "priority": "high",
+    "category": "deep-learning",
+    "tags": ["neural-networks", "mnist", "pytorch", "tensorflow"]
+  },
+  {
+    "week": 14,
+    "startDate": "2025-09-30",
+    "concept": "CNNs and Image Features",
+    "practice": "Train a Convolutional Neural Network (CNN) on the CIFAR-10 image dataset.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "PyTorch CNN Tutorial (CIFAR-10)",
+        "url": "https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html",
+        "type": "tutorial"
+      },
+      {
+        "title": "Stanford CS231n: CNNs",
+        "url": "http://cs231n.github.io/convolutional-networks/",
+        "type": "course"
+      }
+    ],
+    "priority": "high",
+    "category": "deep-learning",
+    "tags": ["cnn", "computer-vision", "cifar10"]
+  },
+  {
+    "week": 15,
+    "startDate": "2025-10-07",
+    "concept": "🚀 PROJECT: Customer Churn Prediction Model",
+    "practice": "Build and compare multiple models (Logistic Regression, Decision Tree, Simple NN) to predict customer churn. Focus on feature engineering and model evaluation.",
+    "hoursExpected": 20,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Medium-level project combining weeks 11-14 learnings.",
+    "resources": [
+      {
+        "title": "Dataset: Telco Customer Churn",
+        "url": "https://www.kaggle.com/datasets/blastchar/telco-customer-churn",
+        "type": "dataset"
+      },
+      {
+        "title": "Tutorial: Churn Prediction with Scikit-learn",
+        "url": "https://www.datacamp.com/tutorial/predicting-customer-churn-in-python",
+        "type": "tutorial"
+      },
+      {
+        "title": "Feature Engineering Guide",
+        "url": "https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "classification", "scikit-learn", "ml", "portfolio"]
+  },
+  {
+    "week": 16,
+    "startDate": "2025-10-14",
+    "concept": "Overfitting & Regularization",
+    "practice": "Apply Dropout, L1/L2 regularization, and other techniques to improve model generalization.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Overfitting and Underfitting Guide",
+        "url": "https://www.tensorflow.org/tutorials/keras/overfit_and_underfit",
+        "type": "tutorial"
+      },
+      {
+        "title": "StatQuest: Regularization",
+        "url": "http://googleusercontent.com/youtube.com/3",
+        "type": "video"
+      }
+    ],
+    "priority": "medium",
+    "category": "deep-learning",
+    "tags": ["overfitting", "dropout", "regularization"]
+  },
+  {
+    "week": 17,
+    "startDate": "2025-10-21",
+    "concept": "Model Deployment & APIs (Flask/FastAPI)",
+    "practice": "Build basic API endpoints for the churn prediction model.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "FastAPI Tutorial",
+        "url": "https://fastapi.tiangolo.com/tutorial/",
+        "type": "tutorial"
+      },
+      {
+        "title": "Flask Documentation",
+        "url": "https://flask.palletsprojects.com/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "deployment",
+    "tags": ["flask", "fastapi", "api", "web-development"]
+  },
+  {
+    "week": 18,
+    "startDate": "2025-10-28",
+    "concept": "Web Interfaces (Gradio / Streamlit)",
+    "practice": "Create a simple web interface to interact with your deployed model.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Streamlit Get Started Guide",
+        "url": "https://docs.streamlit.io/get-started/fundamentals/main-concepts",
+        "type": "tutorial"
+      },
+      {
+        "title": "Gradio Documentation",
+        "url": "https://gradio.app/docs/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "medium",
+    "category": "deployment",
+    "tags": ["gradio", "streamlit", "ui", "interfaces"]
+  },
+  {
+    "week": 19,
+    "startDate": "2025-11-04",
+    "concept": "Containerization with Docker",
+    "practice": "Dockerize the Flask/FastAPI application.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Docker Official Tutorial",
+        "url": "https://docs.docker.com/get-started/",
+        "type": "tutorial"
+      },
+      {
+        "title": "Dockerizing a Python Application",
+        "url": "https://realpython.com/docker-python/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "deployment",
+    "tags": ["docker", "containerization", "devops"]
+  },
+  {
+    "week": 20,
+    "startDate": "2025-11-11",
+    "concept": "🚀 PROJECT: Deploy an ML Model as a Web App",
+    "practice": "Take the churn model, wrap it in a FastAPI backend, create a Streamlit UI, Dockerize it, and deploy it to a cloud service like Render or Hugging Face Spaces.",
+    "hoursExpected": 20,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Advanced project combining weeks 16-19 learnings.",
+    "resources": [
+      {
+        "title": "Tutorial: Deploying ML Models with FastAPI",
+        "url": "https://github.com/phlippe/fastapi-ml-model-deployment",
+        "type": "tutorial"
+      },
+      {
+        "title": "Deploying to Render",
+        "url": "https://render.com/docs/deploy-python-fastapi-app",
+        "type": "documentation"
+      },
+      {
+        "title": "Hugging Face Spaces",
+        "url": "https://huggingface.co/docs/hub/spaces",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "deployment", "fastapi", "streamlit", "docker", "portfolio"]
+  },
+  {
+    "week": 21,
+    "startDate": "2025-11-18",
+    "concept": "NLP Basics & Text Processing",
+    "practice": "Tokenization, stemming, lemmatization, and TF-IDF on text data.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "NLTK Documentation",
+        "url": "https://www.nltk.org/book/",
+        "type": "documentation"
+      },
+      {
+        "title": "spaCy 101",
+        "url": "https://spacy.io/usage/spacy-101",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "high",
+    "category": "nlp",
+    "tags": ["nlp", "text-processing", "classification"]
+  },
+  {
+    "week": 22,
+    "startDate": "2025-11-25",
+    "concept": "Transformers & Hugging Face",
+    "practice": "Use pre-trained models from the Hugging Face Hub for tasks like sentiment analysis and text generation.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Hugging Face Transformers Course",
+        "url": "https://huggingface.co/course/chapter1",
+        "type": "course"
+      },
+      {
+        "title": "The Illustrated Transformer",
+        "url": "https://jalammar.github.io/illustrated-transformer/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "nlp",
+    "tags": ["transformers", "huggingface", "attention"]
+  },
+  {
+    "week": 23,
+    "startDate": "2025-12-02",
+    "concept": "Fine-Tuning Models (BERT)",
+    "practice": "Fine-tune a pre-trained BERT model on a custom sentiment analysis dataset.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Hugging Face Fine-Tuning Tutorial",
+        "url": "https://huggingface.co/docs/transformers/training",
+        "type": "tutorial"
+      },
+      {
+        "title": "The Illustrated BERT",
+        "url": "https://jalammar.github.io/illustrated-bert/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "nlp",
+    "tags": ["bert", "fine-tuning", "sentiment-analysis"]
+  },
+  {
+    "week": 24,
+    "startDate": "2025-12-09",
+    "concept": "Large Language Models & OpenAI API",
+    "practice": "Build a simple application using the OpenAI API, like a summarizer or a question-answering tool.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "OpenAI API Documentation",
+        "url": "https://platform.openai.com/docs/",
+        "type": "documentation"
+      },
+      {
+        "title": "LangChain for LLM Development",
+        "url": "https://python.langchain.com/docs/get_started/introduction",
+        "type": "documentation"
+      }
+    ],
+    "priority": "medium",
+    "category": "nlp",
+    "tags": ["openai", "gpt", "chatbot", "api", "langchain"]
+  },
+  {
+    "week": 25,
+    "startDate": "2025-12-16",
+    "concept": "🚀 PROJECT: Sentiment Analysis of Customer Reviews",
+    "practice": "Fine-tune a Transformer model to classify customer reviews. Deploy the model as an API and create a simple interface to analyze new text.",
+    "hoursExpected": 20,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Advanced project combining weeks 21-24 learnings.",
+    "resources": [
+      {
+        "title": "Dataset: IMDB Movie Reviews",
+        "url": "https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews",
+        "type": "dataset"
+      },
+      {
+        "title": "Tutorial: Fine-tuning for Text Classification",
+        "url": "https://huggingface.co/docs/transformers/tasks/text-classification",
+        "type": "tutorial"
+      },
+      {
+        "title": "Deploying Transformers with FastAPI",
+        "url": "https://www.philschmid.de/deploy-transformers-fastapi-docker",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "nlp", "sentiment-analysis", "transformers", "huggingface"]
+  },
+  {
+    "week": 26,
+    "startDate": "2025-12-23",
+    "concept": "Advanced Object Detection (YOLO)",
+    "practice": "Train a YOLO model on a custom dataset to detect specific objects.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "YOLOv8 Documentation",
+        "url": "https://docs.ultralytics.com/",
+        "type": "documentation"
+      },
+      {
+        "title": "How to Train YOLOv8 on a Custom Dataset",
+        "url": "https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "medium",
+    "category": "computer-vision",
+    "tags": ["yolo", "object-detection", "computer-vision"]
+  },
+  {
+    "week": 27,
+    "startDate": "2025-12-30",
+    "concept": "Time Series Forecasting (LSTM/Prophet)",
+    "practice": "Build a model to predict stock prices or sales trends.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Prophet Documentation",
+        "url": "https://facebook.github.io/prophet/docs/quick_start.html",
+        "type": "documentation"
+      },
+      {
+        "title": "PyTorch Time Series Forecasting",
+        "url": "https://pytorch.org/tutorials/beginner/time_series_forecasting_tutorial.html",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "medium",
+    "category": "time-series",
+    "tags": ["lstm", "prophet", "forecasting", "time-series"]
+  },
+  {
+    "week": 28,
+    "startDate": "2026-01-06",
+    "concept": "Model Explainability (SHAP/LIME)",
+    "practice": "Use SHAP or LIME to explain the predictions of a complex model.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "SHAP Documentation",
+        "url": "https://shap.readthedocs.io/en/latest/",
+        "type": "documentation"
+      },
+      {
+        "title": "Interpretable Machine Learning with LIME",
+        "url": "https://www.youtube.com/watch?v=CY3t11vuuOM",
+        "type": "video"
+      }
+    ],
+    "priority": "medium",
+    "category": "explainability",
+    "tags": ["shap", "lime", "interpretability", "xai"]
+  },
+  {
+    "week": 29,
+    "startDate": "2026-01-13",
+    "concept": "Automation & MLOps (Airflow)",
+    "practice": "Create an Airflow DAG to automate a data processing or model training pipeline.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Apache Airflow Documentation",
+        "url": "https://airflow.apache.org/docs/",
+        "type": "documentation"
+      },
+      {
+        "title": "Airflow ETL Tutorial",
+        "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial_etl.html",
+        "type": "article"
+      }
+    ],
+    "priority": "medium",
+    "category": "mlops",
+    "tags": ["airflow", "pipelines", "automation", "mlops"]
+  },
+  {
+    "week": 30,
+    "startDate": "2026-01-20",
+    "concept": "🚀 PROJECT: Real-Time Object Detection System",
+    "practice": "Build a system that can process a video stream (from a file or webcam) and perform real-time object detection using a custom-trained YOLO model.",
+    "hoursExpected": 20,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Advanced project combining weeks 26-29 learnings.",
+    "resources": [
+      {
+        "title": "Dataset: COCO Dataset",
+        "url": "https://cocodataset.org/#home",
+        "type": "dataset"
+      },
+      {
+        "title": "OpenCV Video Capture Tutorial",
+        "url": "https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html",
+        "type": "tutorial"
+      },
+      {
+        "title": "YOLO with Webcam",
+        "url": "https://www.freecodecamp.org/news/how-to-run-yolo-object-detection-on-a-webcam/",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "computer-vision", "yolo", "real-time", "opencv"]
+  },
+  {
+    "week": 31,
+    "startDate": "2026-01-27",
+    "concept": "Recommender Systems",
+    "practice": "Build a movie recommender using collaborative and content-based filtering.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Surprise Library for Recommender Systems",
+        "url": "https://surprise.readthedocs.io/en/stable/",
+        "type": "documentation"
+      },
+      {
+        "title": "MovieLens Dataset",
+        "url": "https://grouplens.org/datasets/movielens/",
+        "type": "dataset"
+      }
+    ],
+    "priority": "medium",
+    "category": "machine-learning",
+    "tags": ["recommender-systems", "collaborative-filtering", "surprise"]
+  },
+  {
+    "week": 32,
+    "startDate": "2026-02-03",
+    "concept": "Unsupervised Learning (Clustering)",
+    "practice": "Segment customers into distinct groups using K-Means and DBSCAN.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Scikit-learn Clustering Guide",
+        "url": "https://scikit-learn.org/stable/modules/clustering.html",
+        "type": "documentation"
+      },
+      {
+        "title": "Customer Segmentation Tutorial",
+        "url": "https://www.kaggle.com/code/vjchoudhary7/customer-segmentation-tutorial-in-python",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "medium",
+    "category": "machine-learning",
+    "tags": ["clustering", "k-means", "dbscan", "unsupervised-learning"]
+  },
+  {
+    "week": 33,
+    "startDate": "2026-02-10",
+    "concept": "Advanced SQL & Big Data Intro",
+    "practice": "Learn window functions and CTEs. Process a large dataset with Dask or PySpark.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "SQL Window Functions Explained",
+        "url": "https://learnsql.com/blog/sql-window-functions--explained/",
+        "type": "article"
+      },
+      {
+        "title": "Dask Documentation",
+        "url": "https://docs.dask.org/en/stable/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "medium",
+    "category": "databases",
+    "tags": ["sql", "window-functions", "dask", "pyspark", "big-data"]
+  },
+  {
+    "week": 34,
+    "startDate": "2026-02-17",
+    "concept": "A/B Testing & Causal Inference",
+    "practice": "Design and analyze an A/B test to make a data-driven product decision.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "The Complete Guide to A/B Testing",
+        "url": "https://www.abtasty.com/blog/ab-testing-guide/",
+        "type": "article"
+      },
+      {
+        "title": "Causal Inference: The Mixtape",
+        "url": "https://mixtape.scunning.com/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "statistics",
+    "tags": ["a/b-testing", "causal-inference", "product-analytics"]
+  },
+  {
+    "week": 35,
+    "startDate": "2026-02-24",
+    "concept": "🚀 CAPSTONE PROJECT 1: Recommendation Engine",
+    "practice": "Build and deploy a full-featured recommendation engine for movies or products. Include user segmentation and an API to serve recommendations.",
+    "hoursExpected": 25,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Capstone project combining weeks 31-34 learnings.",
+    "resources": [
+      {
+        "title": "Tutorial: Building a Recommendation System",
+        "url": "https://www.datacamp.com/tutorial/recommender-systems-python",
+        "type": "tutorial"
+      },
+      {
+        "title": "Deploying with FastAPI",
+        "url": "https://fastapi.tiangolo.com/",
+        "type": "documentation"
+      },
+      {
+        "title": "Million News Headlines Dataset",
+        "url": "https://www.kaggle.com/datasets/therohk/million-headlines",
+        "type": "dataset"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "capstone", "recommender-systems", "deployment", "portfolio"]
+  },
+  {
+    "week": 36,
+    "startDate": "2026-03-03",
+    "concept": "Graph Neural Networks (GNNs)",
+    "practice": "Build a simple GNN for node classification on a social network or citation dataset.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "PyTorch Geometric Documentation",
+        "url": "https://pytorch-geometric.readthedocs.io/en/latest/",
+        "type": "documentation"
+      },
+      {
+        "title": "A Gentle Introduction to GNNs",
+        "url": "https://distill.pub/2021/gnn-intro/",
+        "type": "article"
+      }
+    ],
+    "priority": "medium",
+    "category": "deep-learning",
+    "tags": ["gnn", "graph-neural-networks", "pytorch-geometric"]
+  },
+  {
+    "week": 37,
+    "startDate": "2026-03-10",
+    "concept": "AI Ethics & Governance",
+    "practice": "Audit a model for fairness and bias. Research and present on AI ethics frameworks.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Google's Responsible AI Practices",
+        "url": "https://ai.google/responsibility/responsible-ai-practices/",
+        "type": "article"
+      },
+      {
+        "title": "Fairlearn: A Tool to Assess and Improve Fairness",
+        "url": "https://fairlearn.org/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "ethics",
+    "tags": ["ai-ethics", "fairness", "bias", "governance"]
+  },
+  {
+    "week": 38,
+    "startDate": "2026-03-17",
+    "concept": "Advanced Deployment (Kubernetes)",
+    "practice": "Deploy a model service on a local Kubernetes cluster using Minikube.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Kubernetes Documentation",
+        "url": "https://kubernetes.io/docs/home/",
+        "type": "documentation"
+      },
+      {
+        "title": "Deploying Python ML Models with Kubernetes",
+        "url": "https://www.youtube.com/watch?v=aS_h2Jk1O5g",
+        "type": "video"
+      }
+    ],
+    "priority": "low",
+    "category": "mlops",
+    "tags": ["kubernetes", "scaling", "deployment", "mlops"]
+  },
+  {
+    "week": 39,
+    "startDate": "2026-03-24",
+    "concept": "Data Structures & Algorithms",
+    "practice": "Solve common DSA problems relevant to data science interviews on LeetCode.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "LeetCode Top Interview Questions",
+        "url": "https://leetcode.com/explore/interview/card/top-interview-questions-easy/",
+        "type": "tutorial"
+      },
+      {
+        "title": "Data Structures & Algorithms in Python",
+        "url": "https://www.geeksforgeeks.org/data-structures/",
+        "type": "article"
+      }
+    ],
+    "priority": "medium",
+    "category": "career-prep",
+    "tags": ["dsa", "algorithms", "interview-prep", "leetcode"]
+  },
+  {
+    "week": 40,
+    "startDate": "2026-03-31",
+    "concept": "🚀 CAPSTONE PROJECT 2: Self-Directed Project",
+    "practice": "Define a problem, collect data, build/deploy a model, and present your findings. This is your chance to build a unique portfolio piece from scratch.",
+    "hoursExpected": 30,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Final capstone project combining all learnings.",
+    "resources": [
+      {
+        "title": "Guide to Structuring a Data Science Project",
+        "url": "https://neptune.ai/blog/how-to-structure-a-data-science-project",
+        "type": "article"
+      },
+      {
+        "title": "Kaggle Datasets",
+        "url": "https://www.kaggle.com/datasets",
+        "type": "dataset"
+      },
+      {
+        "title": "Google Dataset Search",
+        "url": "https://datasetsearch.research.google.com/",
+        "type": "dataset"
+      }
+    ],
+    "priority": "high",
+    "category": "project",
+    "tags": ["project", "capstone", "end-to-end", "portfolio", "self-directed"]
+  },
+  {
+    "week": 41,
+    "startDate": "2026-04-07",
+    "concept": "Portfolio Creation & Polishing",
+    "practice": "Build a personal portfolio website to showcase your projects. Write compelling project descriptions and READMEs.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "How to Build a Data Science Portfolio",
+        "url": "https://www.dataquest.io/blog/build-a-data-science-portfolio/",
+        "type": "article"
+      },
+      {
+        "title": "GitHub Pages",
+        "url": "https://pages.github.com/",
+        "type": "documentation"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["portfolio", "github", "web-development", "personal-branding"]
+  },
+  {
+    "week": 42,
+    "startDate": "2026-04-14",
+    "concept": "Resume & LinkedIn Optimization",
+    "practice": "Tailor your resume and LinkedIn profile for data science roles. Focus on quantifiable achievements.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Data Science Resume Guide",
+        "url": "https://www.springboard.com/blog/data-science/data-science-resume/",
+        "type": "article"
+      },
+      {
+        "title": "LinkedIn Profile Tips",
+        "url": "https://www.forbes.com/sites/williamarruda/2021/01/12/9-ways-to-turbocharge-your-linkedin-profile-in-2021/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["resume", "linkedin", "job-search", "personal-branding"]
+  },
+  {
+    "week": 43,
+    "startDate": "2026-04-21",
+    "concept": "Technical Interview Preparation (Coding)",
+    "practice": "Solve SQL, Python, and probability questions on platforms like LeetCode and HackerRank.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "LeetCode - Top SQL 50",
+        "url": "https://leetcode.com/study-plan/top-sql-50/",
+        "type": "tutorial"
+      },
+      {
+        "title": "Ace the Data Science Interview",
+        "url": "https://www.acethedatascienceinterview.com/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["interview-prep", "coding-challenge", "sql", "python"]
+  },
+  {
+    "week": 44,
+    "startDate": "2026-04-28",
+    "concept": "Technical Interview Preparation (ML Theory)",
+    "practice": "Review and be able to explain ML concepts, model trade-offs, and project details.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "120 Data Scientist Interview Questions",
+        "url": "https://github.com/alexeygrigorev/data-science-interviews/blob/master/questions.md",
+        "type": "article"
+      },
+      {
+        "title": "ML System Design Questions",
+        "url": "https://github.com/chiphuyen/machine-learning-systems-design/blob/main/build/mlsd.pdf",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["interview-prep", "machine-learning", "system-design"]
+  },
+  {
+    "week": 45,
+    "startDate": "2026-05-05",
+    "concept": "Behavioral Interview Preparation",
+    "practice": "Prepare stories using the STAR method for common behavioral questions. Practice explaining your projects.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "The STAR Method",
+        "url": "https://www.themuse.com/advice/star-interview-method",
+        "type": "article"
+      },
+      {
+        "title": "Mock Interviews (Pramp)",
+        "url": "https://www.pramp.com/invt/DAnjXgWq7pW9ANoE4YjN",
+        "type": "tutorial"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["interview-prep", "behavioral-interview", "star-method"]
+  },
+  {
+    "week": 46,
+    "startDate": "2026-05-12",
+    "concept": "Job Application Strategy & Networking",
+    "practice": "Start applying to jobs, tracking applications, and reaching out to people in your network.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "How to Network for a Job",
+        "url": "https://www.indeed.com/career-advice/finding-a-job/how-to-network-for-a-job",
+        "type": "article"
+      },
+      {
+        "title": "Guide to Informational Interviews",
+        "url": "https://www.linkedin.com/advice/0/what-best-way-ask-someone-informational-interview",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["job-search", "networking", "applications"]
+  },
+  {
+    "week": 47,
+    "startDate": "2026-05-19",
+    "concept": "Live Interviews & Follow-ups",
+    "practice": "Conduct live interviews and practice writing professional thank-you and follow-up emails.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Data Science Mock Interview",
+        "url": "https://www.youtube.com/watch?v=s4M9G8g2s6c",
+        "type": "video"
+      },
+      {
+        "title": "How to Write a Thank You Email",
+        "url": "https://www.thebalancecareers.com/thank-you-email-after-interview-2060023",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["interviewing", "communication", "job-search"]
+  },
+  {
+    "week": 48,
+    "startDate": "2026-05-26",
+    "concept": "Offer Negotiation",
+    "practice": "Research salaries and learn negotiation strategies.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Salary Negotiation Guide",
+        "url": "https://www.kalzumeus.com/2012/01/23/salary-negotiation/",
+        "type": "article"
+      },
+      {
+        "title": "Levels.fyi",
+        "url": "https://www.levels.fyi/",
+        "type": "dataset"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["negotiation", "salary", "job-offer"]
+  },
+  {
+    "week": 49,
+    "startDate": "2026-06-02",
+    "concept": "Continuous Learning & Specialization",
+    "practice": "Identify areas of interest for future specialization (e.g., NLP, CV, MLOps) and start exploring advanced topics.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "ArXiv",
+        "url": "https://arxiv.org/list/cs.LG/recent",
+        "type": "article"
+      },
+      {
+        "title": "Papers with Code",
+        "url": "https://paperswithcode.com/",
+        "type": "article"
+      }
+    ],
+    "priority": "medium",
+    "category": "continuous-learning",
+    "tags": ["specialization", "research", "continuous-learning"]
+  },
+  {
+    "week": 50,
+    "startDate": "2026-06-09",
+    "concept": "Review & Reinforce I",
+    "practice": "Go back through your projects. Refactor code, improve documentation, and add new features.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Clean Code by Robert C. Martin",
+        "url": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
+        "type": "article"
+      },
+      {
+        "title": "The Art of Readable Code",
+        "url": "https://www.oreilly.com/library/view/the-art-of/9781449318482/",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "review",
+    "tags": ["refactoring", "documentation", "clean-code"]
+  },
+  {
+    "week": 51,
+    "startDate": "2026-06-16",
+    "concept": "Review & Reinforce II",
+    "practice": "Review core concepts from the entire year. Identify weak spots and dedicate time to them.",
+    "hoursExpected": 15,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "",
+    "resources": [
+      {
+        "title": "Data Science Flashcards",
+        "url": "https://quizlet.com/subject/data-science/",
+        "type": "tutorial"
+      },
+      {
+        "title": "Khan Academy",
+        "url": "https://www.khanacademy.org/",
+        "type": "course"
+      }
+    ],
+    "priority": "high",
+    "category": "review",
+    "tags": ["review", "fundamentals", "reinforcement"]
+  },
+  {
+    "week": 52,
+    "startDate": "2026-06-23",
+    "concept": "Final Review & Next Steps",
+    "practice": "Final polish of portfolio and online presence. Set learning goals for your first year on the job.",
+    "hoursExpected": 10,
+    "hoursCompleted": 0,
+    "completed": false,
+    "notes": "Congratulations on completing your 52-week roadmap!",
+    "resources": [
+      {
+        "title": "What to Expect as a Junior Data Scientist",
+        "url": "https://towardsdatascience.com/what-to-expect-in-your-first-data-science-job-8a71913a06d6",
+        "type": "article"
+      },
+      {
+        "title": "Setting Professional Development Goals",
+        "url": "https://www.coursera.org/articles/professional-development-goals",
+        "type": "article"
+      }
+    ],
+    "priority": "high",
+    "category": "career-prep",
+    "tags": ["next-steps", "career-growth", "reflection"]
+  }
+]
