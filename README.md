@@ -9,16 +9,20 @@
 
 <div align="center">
   
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+<div align="center">
 
-![Netlify](https://img.shields.io/badge/Live-mlroadmap.netlify.app-00C853?style=for-the-badge&logo=netlify&logoColor=white)
-![Performance](https://img.shields.io/badge/Lighthouse-95+-4FC08D?style=for-the-badge&logo=lighthouse&logoColor=white)
-![Bundle Size](https://img.shields.io/badge/Bundle-<500KB-FF6B6B?style=for-the-badge&logo=webpack&logoColor=white)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)]
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)]
+[![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)]
 
-**[🔗 Live Demo](https://mlroadmap.netlify.app/) | [� Download App](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases) | [�📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**
+</div>
+
+[![Netlify](https://img.shields.io/badge/Live-mlroadmap.netlify.app-00C853?style=for-the-badge&logo=netlify&logoColor=white)](https://mlroadmap.netlify.app)
+[![Performance](https://img.shields.io/badge/Lighthouse-95+-4FC08D?style=for-the-badge&logo=lighthouse&logoColor=white)]
+[![Bundle Size](https://img.shields.io/badge/Bundle-<500KB-FF6B6B?style=for-the-badge&logo=webpack&logoColor=white)]
+
+**[🔗 Live Demo](https://mlroadmap.netlify.app/) | [📱 Download App](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**
 
 </div>
 
@@ -29,8 +33,8 @@
 **ML Roadmap Tracker** is a sophisticated web application designed to guide aspiring data scientists through a comprehensive 52-week Machine Learning curriculum. Built with modern web technologies, it demonstrates proficiency in **React ecosystem**, **TypeScript development**, **RESTful API integration**, and **cloud-based data synchronization**.
 
 > **🌟 Live Application**: Experience the full functionality at [mlroadmap.netlify.app](https://mlroadmap.netlify.app/)  
-> **� Mobile Apps**: Download Android APK from [GitHub Releases](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)  
-> **�👨‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineer
+> **📱 Mobile Apps**: Download Android APK from [GitHub Releases](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)  
+> **🧑‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineer
 
 This project serves as both a learning tool for ML enthusiasts and a showcase of modern web development practices, featuring production-grade architecture and enterprise-level code quality.
 
