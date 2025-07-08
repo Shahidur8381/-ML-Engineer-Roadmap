@@ -22,7 +22,7 @@ This directory contains the Android application version of the ML Roadmap Tracke
 
 ## Development Status
 
-🚧 **In Development** - Android app is currently being developed to complement the web application.
+✅ **Released** - Android app is now available for download! Get the latest APK from GitHub Releases.
 
 ## Planned Features
 
@@ -35,10 +35,12 @@ This directory contains the Android application version of the ML Roadmap Tracke
 
 ## Installation
 
-Coming soon! The Android app will be available on:
+🚀 **Download Now Available!**
 
-- Google Play Store
-- Direct APK download from GitHub Releases
+📱 **Android APK**: [Download from GitHub Releases](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)
+
+🔮 **Coming Soon**:
+- Google Play Store (In Review)
 
 ## Contributing
 
@@ -46,6 +48,6 @@ Interested in contributing to the Android app development? Check out our [contri
 
 ## Links
 
-- [📱 Download APK](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases) (Coming Soon)
+- [📱 **Download APK Now**](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)
 - [🌐 Web Application](https://mlroadmap.netlify.app/)
 - [📚 Main Documentation](../README.md)
