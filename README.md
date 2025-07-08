@@ -1,6 +1,9 @@
-# 🚀 ML Roadmap**[🔗 Live> **🌟 Live Application**: Experience the full functionality at [mlroadmap.netlify.app](https://mlroadmap.netlify.app/)  
-> **📱 Mobile Apps**: Download Android APK from [GitHub Releases](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)  
-> **👨‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineermo](https://mlroadmap.netlify.app/) | [📱 Download Apps](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**Tracker
+# 🚀 ML Roadmap Tracker
+
+[🔗 Live Application](https://mlroadmap.netlify.app): Experience the full functionality at **mlroadmap.netlify.app**
+
+> **📱 Mobile Apps**: Download the Android APK from [GitHub Releases](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/)  
+> **👨‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineer | [📱 Download Apps](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases/) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)
 
 ### _A Production-Ready Machine Learning Progress Tracking Application_
 
