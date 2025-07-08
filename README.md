@@ -182,7 +182,7 @@ ML-Engineer-Roadmap/
 ├── 🍎 ios app/             # Native iOS application
 │   ├── README.md           # iOS development guide
 │   └── ...                 # iOS source code
-├── 🌐 web/                 # Main React web application
+├── 🌐 website/             # Main React web application
 │   ├── README.md           # Web app documentation
 │   ├── src/
 │   │   ├── components/     # React UI components
@@ -215,11 +215,11 @@ Each directory contains comprehensive documentation:
 
 - **[📱 Android App Documentation](android%20app/README.md)** - Native Android development
 - **[🍎 iOS App Documentation](ios%20app/README.md)** - Native iOS development
-- **[🌐 Web App Documentation](web/README.md)** - React web application
-- **[🧩 Components Guide](web/src/components/README.md)** - UI component library
-- **[🎣 Hooks Documentation](web/src/hooks/README.md)** - Custom React hooks
-- **[🔧 Services Guide](web/src/services/README.md)** - API integrations
-- **[📝 Types Reference](web/src/types/README.md)** - TypeScript definitions
+- **[🌐 Web App Documentation](website/README.md)** - React web application
+- **[🧩 Components Guide](website/src/components/README.md)** - UI component library
+- **[🎣 Hooks Documentation](website/src/hooks/README.md)** - Custom React hooks
+- **[🔧 Services Guide](website/src/services/README.md)** - API integrations
+- **[📝 Types Reference](website/src/types/README.md)** - TypeScript definitions
 
 ### **Key Design Patterns**
 

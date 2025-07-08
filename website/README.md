@@ -1,4 +1,4 @@
-# 🌐 Web Application - ML Roadmap Tracker
+# 🌐 Website Application - ML Roadmap Tracker
 
 ### _Production-Ready React Web Application_
 
@@ -83,7 +83,7 @@ This is the **main web application** for ML Roadmap Tracker - a sophisticated Re
 ## 📁 Project Structure
 
 ```
-web/
+website/
 ├── src/
 │   ├── components/          # React components
 │   │   ├── Dashboard.tsx    # Main dashboard
