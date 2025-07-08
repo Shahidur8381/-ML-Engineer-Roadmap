@@ -54,9 +54,6 @@ export default function CloudSync({ roadmap, onDataUpdate }: Props) {
   const handleUploadProgress = async () => {
     if (!syncService) return;
     
-    console.log("Starting upload with roadmap data:", roadmap?.length || 0, "weeks");
-    console.log("Sample roadmap item:", roadmap?.[0]);
-    
     setIsLoading(true);
     setSyncStatus('Uploading progress to cloud...');
     
@@ -82,11 +79,7 @@ export default function CloudSync({ roadmap, onDataUpdate }: Props) {
     
     const result = await syncService.downloadProgress();
     
-    console.log("Download result:", result);
-    
     if (result.success && result.data) {
-      console.log("Downloaded data type:", typeof result.data);
-      console.log("Downloaded data:", result.data);
       
       // Handle the data properly
       let dataToUpdate = result.data;
@@ -94,7 +87,6 @@ export default function CloudSync({ roadmap, onDataUpdate }: Props) {
         dataToUpdate = result.data.roadmapData;
       }
       
-      console.log("Data to update with:", dataToUpdate);
       onDataUpdate(dataToUpdate);
       const now = new Date().toISOString();
       setLastSyncTime(now);
@@ -362,14 +354,14 @@ export default function CloudSync({ roadmap, onDataUpdate }: Props) {
       {isConfigured ? (
         <div className="space-y-4">
           <div className="flex flex-wrap gap-3">
-            <button
+            {/* <button
               onClick={handleSmartSync}
               disabled={isLoading}
               className="flex items-center space-x-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors disabled:opacity-50 font-semibold"
             >
               <span>🔄</span>
               <span>Smart Sync</span>
-            </button>
+            </button> */}
 
             <button
               onClick={handleUploadProgress}
@@ -401,7 +393,7 @@ export default function CloudSync({ roadmap, onDataUpdate }: Props) {
               <span>{config.autoSync ? 'Auto-Sync ON' : 'Auto-Sync OFF'}</span>
             </button>
 
-            <button
+            {/* <button
               onClick={() => {
                 console.log("Current roadmap data:", roadmap);
                 console.log("LocalStorage data:", JSON.parse(localStorage.getItem('ml-roadmap') || '[]'));
@@ -413,7 +405,7 @@ export default function CloudSync({ roadmap, onDataUpdate }: Props) {
               className="px-3 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm"
             >
               🐛 Debug
-            </button>
+            </button> */}
           </div>
 
           {lastSyncTime && (

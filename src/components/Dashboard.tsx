@@ -117,8 +117,6 @@ export default function Dashboard() {
   };
 
   const handleCloudSyncDataUpdate = (newData: WeekData[]) => {
-    console.log("Updating roadmap from cloud sync:", newData?.length || 0, "weeks");
-    console.log("Sample week data:", newData?.[0]);
     if (newData && Array.isArray(newData) && newData.length > 0) {
       setRoadmap(newData);
       setFilteredRoadmap(newData);
@@ -227,7 +225,6 @@ export default function Dashboard() {
       // Fetch fresh data from JSON
       const response = await fetch("/roadmap.json?t=" + Date.now()); // Cache buster
       const data: WeekData[] = await response.json();
-      console.log(`Force refreshed: Loaded ${data.length} weeks (progress reset)`);
       
       setRoadmap(data);
       setFilteredRoadmap(data);

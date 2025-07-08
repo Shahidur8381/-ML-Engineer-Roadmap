@@ -46,7 +46,6 @@ export class CloudSyncService {
         );
         
         if (mlGist) {
-          console.log("Found existing ML Roadmap Gist:", mlGist.id);
           return mlGist.id;
         }
       }
@@ -94,7 +93,6 @@ export class CloudSyncService {
         localStorage.setItem('ml-roadmap-sync-config', JSON.stringify(this.config));
         localStorage.setItem('ml-roadmap-gist-id', gist.id);
         
-        console.log("Created new Gist with ID:", gist.id);
         return { success: true, message: "Progress synced to cloud", data: gist };
       } else {
         const errorText = await response.text();
@@ -111,9 +109,6 @@ export class CloudSyncService {
     if (!this.config.gistId || !this.config.accessToken) {
       return await this.createGist(data);
     }
-
-    console.log("Uploading data:", data?.length || 0, "weeks");
-    console.log("Sample data:", data?.[0]);
 
     try {
       const response = await fetch(`https://api.github.com/gists/${this.config.gistId}`, {
@@ -138,7 +133,6 @@ export class CloudSyncService {
 
       if (response.ok) {
         this.lastSyncTime = Date.now();
-        console.log("Upload successful");
         return { success: true, message: "Progress synced successfully" };
       } else {
         const errorText = await response.text();
@@ -165,7 +159,6 @@ export class CloudSyncService {
         
         if (content) {
           const data = JSON.parse(content);
-          console.log("Downloaded data structure:", data);
           
           // Handle both new and legacy data formats
           let roadmapData;
@@ -177,7 +170,6 @@ export class CloudSyncService {
             roadmapData = data;
           }
           
-          console.log("Extracted roadmap data:", roadmapData?.length || 0, "weeks");
           return { success: true, message: "Progress downloaded from cloud", data: roadmapData };
         } else {
           return { success: false, message: "No progress data found in cloud" };
@@ -198,15 +190,10 @@ export class CloudSyncService {
     // Clear existing interval if any
     this.stopAutoSync();
 
-    console.log("Starting auto-sync with interval:", this.config.syncInterval, "minutes");
-
     this.autoSyncInterval = setInterval(async () => {
       const localData = JSON.parse(localStorage.getItem('ml-roadmap') || '[]');
-      console.log("Auto-sync: Found", localData?.length || 0, "weeks in localStorage");
       if (localData.length > 0) {
-        console.log("Auto-sync: Uploading data...");
         const result = await this.updateGist(localData);
-        console.log("Auto-sync result:", result);
         onSync(result);
       }
     }, this.config.syncInterval * 60 * 1000);

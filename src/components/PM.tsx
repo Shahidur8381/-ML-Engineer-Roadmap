@@ -43,8 +43,8 @@ function ProjectMilestones({ roadmap }: Props) {
             }}
             className="flex items-center space-x-1 px-3 py-1 text-sm bg-indigo-100 text-indigo-700 rounded-lg hover:bg-indigo-200 transition-colors"
           >
-            <span>{isGlobalExpanded ? '📦' : '📖'}</span>
-            <span>{isGlobalExpanded ? 'Wrap All' : 'Expand All'}</span>
+            {/* <span>{isGlobalExpanded ? '📦' : '📖'}</span>
+            <span>{isGlobalExpanded ? 'Wrap All' : 'Expand All'}</span> */}
           </button>
           <span className="text-sm text-gray-500">
             {projects.filter(p => p.completed).length} of {projects.length} completed
