@@ -29,7 +29,7 @@ function ProjectMilestones({ roadmap }: Props) {
   if (projects.length === 0) return null;
 
   return (
-    <div className="bg-white p-6 rounded-xl shadow-lg">
+    <div id="project-milestones" className="bg-white p-6 rounded-xl shadow-lg">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold text-gray-800 flex items-center">
           <span className="text-2xl mr-3">🚀</span>

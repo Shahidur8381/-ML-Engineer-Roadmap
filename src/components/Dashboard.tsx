@@ -245,7 +245,7 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="space-y-6">
+    <div id="dashboard" className="space-y-6">
       {/* Cloud Sync - Moved to top for production */}
       <CloudSync roadmap={roadmap} onDataUpdate={handleCloudSyncDataUpdate} />
 
