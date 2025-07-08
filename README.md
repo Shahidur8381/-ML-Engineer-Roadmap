@@ -9,11 +9,11 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-![GitHub](https://img.shields.io/badge/Live-www.roadmapx.com-00C853?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Live-mlroadmap.netlify.app-00C853?style=for-the-badge&logo=netlify&logoColor=white)
 ![Performance](https://img.shields.io/badge/Lighthouse-95+-4FC08D?style=for-the-badge&logo=lighthouse&logoColor=white)
 ![Bundle Size](https://img.shields.io/badge/Bundle-<500KB-FF6B6B?style=for-the-badge&logo=webpack&logoColor=white)
 
-**[🔗 Live Demo](https://www.roadmapx.com) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**
+**[🔗 Live Demo](https://mlroadmap.netlify.app/) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**
 
 </div>
 
@@ -23,7 +23,7 @@
 
 **ML Roadmap Tracker** is a sophisticated web application designed to guide aspiring data scientists through a comprehensive 52-week Machine Learning curriculum. Built with modern web technologies, it demonstrates proficiency in **React ecosystem**, **TypeScript development**, **RESTful API integration**, and **cloud-based data synchronization**.
 
-> **🌟 Live Application**: Experience the full functionality at [www.roadmapx.com](https://www.roadmapx.com)  
+> **🌟 Live Application**: Experience the full functionality at [mlroadmap.netlify.app](https://mlroadmap.netlify.app/)  
 > **👨‍💻 Developer**: MD Shahidur Rahman - Passionate Full-Stack Developer & ML Engineer
 
 This project serves as both a learning tool for ML enthusiasts and a showcase of modern web development practices, featuring production-grade architecture and enterprise-level code quality.
@@ -347,7 +347,7 @@ npm run preview        # Local preview of production build
 - **Software Engineering**: Clean Architecture, Design Patterns, Performance Optimization
 - **DevOps & Deployment**: CI/CD, Environment Management, Production Deployment
 
-*Currently building innovative solutions at the intersection of web development and machine learning.*
+_Currently building innovative solutions at the intersection of web development and machine learning._
 
 ---
 
@@ -369,8 +369,8 @@ npm run preview        # Local preview of production build
 
 **Built with ❤️ and modern web technologies**
 
-*Demonstrating production-ready development skills for enterprise applications*
+_Demonstrating production-ready development skills for enterprise applications_
 
-**🌐 Live at [www.roadmapx.com](https://www.roadmapx.com)**
+**🌐 Live at [mlroadmap.netlify.app](https://mlroadmap.netlify.app/)**
 
 </div>
