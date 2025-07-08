@@ -13,7 +13,7 @@
 ![Performance](https://img.shields.io/badge/Lighthouse-95+-4FC08D?style=for-the-badge&logo=lighthouse&logoColor=white)
 ![Bundle Size](https://img.shields.io/badge/Bundle-<500KB-FF6B6B?style=for-the-badge&logo=webpack&logoColor=white)
 
-**[🔗 Live Demo](https://mlroadmap.netlify.app/) | [📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**
+**[🔗 Live Demo](https://mlroadmap.netlify.app/) | [� Download App](https://github.com/Shahidur8381/-ML-Engineer-Roadmap/releases) | [�📖 Documentation](#-features) | [🚀 Quick Start](#-quick-start)**
 
 </div>
 
@@ -162,23 +162,54 @@ Environment Config // Secure configuration management
 
 ## 🏗️ Architecture & Design Patterns
 
-### **Component Architecture**
+### **Project Structure**
 
 ```
-src/
-├── components/           # Reusable UI components
-│   ├── Dashboard.tsx    # Main application container
-│   ├── WeekCard.tsx     # Individual progress cards
-│   ├── CloudSync.tsx    # Synchronization interface
-│   └── PM.tsx           # Project milestone tracker
-├── services/            # API abstraction layer
-│   └── CloudSyncService.ts
-├── hooks/               # Custom React hooks
-│   └── useLocalStorage.ts
-├── types/               # TypeScript definitions
-│   └── index.ts
-└── utils/               # Helper functions
+ML-Engineer-Roadmap/
+├── 📱 android app/          # Native Android application
+│   ├── README.md           # Android development guide
+│   └── ...                 # Android source code
+├── 🍎 ios app/             # Native iOS application
+│   ├── README.md           # iOS development guide
+│   └── ...                 # iOS source code
+├── 🌐 web/                 # Main React web application
+│   ├── README.md           # Web app documentation
+│   ├── src/
+│   │   ├── components/     # React UI components
+│   │   │   ├── README.md   # Component documentation
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── WeekCard.tsx
+│   │   │   └── ...
+│   │   ├── hooks/          # Custom React hooks
+│   │   │   ├── README.md   # Hooks documentation
+│   │   │   ├── useLocalStorage.ts
+│   │   │   └── useShawonProgress.ts
+│   │   ├── services/       # API & external services
+│   │   │   ├── README.md   # Services documentation
+│   │   │   └── CloudSyncService.ts
+│   │   ├── types/          # TypeScript definitions
+│   │   │   ├── README.md   # Types documentation
+│   │   │   └── index.ts
+│   │   ├── App.tsx         # Main application
+│   │   └── index.tsx       # Entry point
+│   ├── public/             # Static assets
+│   ├── package.json
+│   └── vite.config.ts
+├── README.md               # This file - Main documentation
+└── ...                     # Configuration files
 ```
+
+### **Documentation Structure**
+
+Each directory contains comprehensive documentation:
+
+- **[📱 Android App Documentation](android%20app/README.md)** - Native Android development
+- **[🍎 iOS App Documentation](ios%20app/README.md)** - Native iOS development
+- **[🌐 Web App Documentation](web/README.md)** - React web application
+- **[🧩 Components Guide](web/src/components/README.md)** - UI component library
+- **[🎣 Hooks Documentation](web/src/hooks/README.md)** - Custom React hooks
+- **[🔧 Services Guide](web/src/services/README.md)** - API integrations
+- **[📝 Types Reference](web/src/types/README.md)** - TypeScript definitions
 
 ### **Key Design Patterns**
 

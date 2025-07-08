@@ -1,0 +1,220 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - ML Roadmap Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #111827; /* Dark Blue-Gray */
+            --primary-color: #EF4444; /* Red */
+            --secondary-color: #38BDF8; /* Sky Blue */
+            --text-color: #F9FAFB; /* Almost White */
+            --container-bg: #1F2937; /* Lighter Gray */
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: var(--container-bg);
+            border-radius: 20px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.5), 0 0 15px rgba(56, 189, 248, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 90%;
+            width: 500px;
+            opacity: 0;
+            transform: scale(0.95);
+            animation: fadeIn 1s ease-out forwards;
+        }
+        
+        @keyframes fadeIn {
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            position: relative;
+            animation: glitch 2.5s infinite;
+        }
+
+        /* Glitch animation for the title */
+        .title::before,
+        .title::after {
+            content: 'Connection Lost';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--container-bg);
+            overflow: hidden;
+        }
+
+        .title::before {
+            left: 2px;
+            text-shadow: -2px 0 var(--primary-color);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim-1 2.5s infinite linear alternate-reverse;
+        }
+
+        .title::after {
+            left: -2px;
+            text-shadow: -2px 0 var(--secondary-color), 2px 2px var(--primary-color);
+            clip: rect(85px, 450px, 90px, 0);
+            animation: glitch-anim-2 2.5s infinite linear alternate-reverse;
+        }
+
+        @keyframes glitch-anim-1 {
+            0% { clip: rect(42px, 9999px, 44px, 0); }
+            5% { clip: rect(17px, 9999px, 96px, 0); }
+            100% { clip: rect(50px, 9999px, 130px, 0); }
+        }
+
+        @keyframes glitch-anim-2 {
+            0% { clip: rect(2px, 9999px, 99px, 0); }
+            100% { clip: rect(92px, 9999px, 98px, 0); }
+        }
+        
+        .message {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+
+        .retry-button {
+            background: var(--primary-color);
+            color: var(--text-color);
+            border: none;
+            padding: 15px 30px;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+        }
+
+        .retry-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 25px rgba(239, 68, 68, 0.6);
+            background: #FF5555;
+        }
+
+        .retry-button:active {
+            transform: translateY(-1px);
+        }
+        
+        /* Animated SVG Graphic */
+        .offline-character-svg {
+            width: 200px;
+            height: 150px;
+            margin: 10px auto 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .cartoon-body {
+            animation: bob 3s infinite ease-in-out;
+            transform-origin: center bottom;
+            display; flex;
+            justify-content: center;
+        }
+
+        @keyframes bob {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .teardrop {
+            animation: drop 3s infinite ease-out;
+            transform-origin: top center;
+            opacity: 0;
+        }
+
+        @keyframes drop {
+            0% { transform: translateY(0); opacity: 0; }
+            30% { opacity: 1; }
+            80% { transform: translateY(30px); opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        .speech-bubble text {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            fill: var(--bg-color);
+        }
+        
+        /* Make it responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            .title {
+                font-size: 2rem;
+            }
+            .message {
+                font-size: 1rem;
+            }
+            .offline-character-svg {
+                width: 150px;
+                height: 110px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sad cartoon character SVG -->
+        <svg class="offline-character-svg" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+            <g class="cartoon-body">
+                <!-- Face -->
+                <circle cx="75" cy="80" r="40" fill="#2d3748" stroke="var(--secondary-color)" stroke-width="2"/>
+                <!-- Sad Eyes -->
+                <path d="M 60 75 Q 65 65 70 75" stroke="var(--secondary-color)" stroke-width="2" fill="none" />
+                <path d="M 80 75 Q 85 65 90 75" stroke="var(--secondary-color)" stroke-width="2" fill="none" />
+                <!-- Sad Mouth -->
+                <path d="M 65 95 Q 75 105 85 95" stroke="var(--secondary-color)" stroke-width="2" fill="none" />
+                <!-- Teardrop -->
+                <path class="teardrop" d="M 90 80 Q 95 85 90 90 Q 85 85 90 80 Z" fill="var(--secondary-color)" />
+            </g>
+            <!-- Speech Bubble -->
+            
+        </svg>
+
+        <h1 class="title">Connection Lost</h1>
+        <p class="message">
+            It seems you're offline. Please check your internet connection to continue tracking your ML engineering roadmap.
+        </p>
+        <button class="retry-button" onclick="window.location.reload();">
+            Attempt to Reconnect
+        </button>
+    </div>
+
+</body>
+</html>
